@@ -5,9 +5,6 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args) {
-        calculator();
-    }
 
     public static void calculator() {
         double number_1, number_2;
@@ -20,7 +17,7 @@ public class Calculator {
         arithmeticOperator = scanner.next();
         System.out.println("Input an integer num_2: ");
         number_2 = scanner.nextInt();
-        scanner.close();
+
         switch (arithmeticOperator) {
             case "+":
                 double sum = number_1 + number_2;
@@ -37,6 +34,7 @@ public class Calculator {
             case "/":
                 if (number_2 == 0) {
                     System.out.println("Can't divide 0 , try again: ");
+                    calculator();
 
                 } else {
                     double divide = number_1 / number_2;
@@ -49,7 +47,7 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Wrong arithmetic operator, try again: ");
-
+                calculator();
                 break;
         }
     }
