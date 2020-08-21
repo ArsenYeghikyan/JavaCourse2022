@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e321e69c-75e2-4001-964a-bfabbbd8c208" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\User\IdeaProjects\codeschool-training\src\untitled\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YLTIgtvlK1tgqA9nBal4qhw2b3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e321e69c-75e2-4001-964a-bfabbbd8c208" name="Default Changelist" comment="" />
+      <created>1582720796028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582720796028</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2335" y="31" key="CommitChangelistDialog2" timestamp="1582721628019">
+      <screen x="1920" y="5" width="1600" height="860" />
+    </state>
+    <state x="2335" y="31" key="CommitChangelistDialog2/0.0.1920.1040/1920.5.1600.860@1920.5.1600.860" timestamp="1582721628019" />
+    <state x="2385" y="133" key="NewModule_or_Project.wizard" timestamp="1582721706744">
+      <screen x="1920" y="5" width="1600" height="860" />
+    </state>
+    <state x="2385" y="133" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.5.1600.860@1920.5.1600.860" timestamp="1582721706744" />
+    <state x="2484" y="226" key="git4idea.merge.GitPullDialog" timestamp="1582721668757">
+      <screen x="1920" y="5" width="1600" height="860" />
+    </state>
+    <state x="2484" y="226" key="git4idea.merge.GitPullDialog/0.0.1920.1040/1920.5.1600.860@1920.5.1600.860" timestamp="1582721668757" />
+  </component>
+</project>
