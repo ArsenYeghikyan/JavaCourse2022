@@ -8,11 +8,9 @@ import java.util.Scanner;
 
  */
 public class SwapsValues {
-    public static void main(String[] args) {
-        swapsValues();
-    }
 
-    private static void swapsValues() {
+
+    public static void swapsValues() {
         Scanner scanner = new Scanner(System.in);
         int x, y, z;
         System.out.println("Input x: ");

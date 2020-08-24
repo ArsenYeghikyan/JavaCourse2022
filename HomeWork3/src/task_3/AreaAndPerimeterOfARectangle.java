@@ -13,21 +13,17 @@ Perimeter is 22
  */
 public class AreaAndPerimeterOfARectangle {
 
-    public static int width, height;
+    private static int width, height;
 
-    public static void main(String[] args) {
 
-        area();
-        perimeter();
-    }
 
-    public static void addParameters() {
+    private static void addParameters() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input width: ");
         width = scanner.nextInt();
         System.out.println("Input height: ");
         height = scanner.nextInt();
-        scanner.close();
+//        scanner.close();
     }
 
     public static void area() {

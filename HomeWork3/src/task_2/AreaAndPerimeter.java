@@ -13,30 +13,24 @@ Area is = 176.71458676442586
 
  */
 public class AreaAndPerimeter {
-    final static double PI = 3.14159;
+    private final static double PI = 3.14159;
+    private static double radius;
 
-    public static void main(String[] args) {
-        area();
-        perimeter();
+    private static void addRadius() {
+        System.out.println("Input radius: ");
+        Scanner scanner = new Scanner(System.in);
+        radius = scanner.nextDouble();
     }
 
 
     public static void area() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input radius: ");
-        double radius = scanner.nextDouble();
-        scanner.close();
+        addRadius();
         double area = PI * (radius * radius);
         System.out.println("Expected Output: " + area);
     }
 
     public static void perimeter() {
-
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input radius: ");
-        double radius = scanner.nextDouble();
-        scanner.close();
+        addRadius();
         double perimeter = 2 * PI * radius;
         System.out.println("Expected Output: " + perimeter);
     }
