@@ -7,10 +7,10 @@ public class SumOPrimeNumbers {
 
 
     public static void sumOfPrimeNumbers() {
-        int sum=0;
+        int sum = 0;
         for (int i = 2; i < 200; ++i) {
-             sum  =finderPrimeNumber(i);
-            sum+=sum;
+            sum = finderPrimeNumber(i);
+            sum += sum;
         }
         System.out.println(sum);
     }
