@@ -6,19 +6,35 @@ package task_16;
 public class MaxAndMInValues {
 
     public static void main(String[] args) {
-        int[] array = new int[11];
-        int arrStart = array[0];
-        int min =arrStart;
-        int max = arrStart;
-        for (int i = 0; i <array.length ; i++) {
-            array[i]=i;
-            if (array[0]<array[i]){
-                max=array[i];
-            }else if (array[0]>array[i]){
+       maxValue(new int[]{1,2,5,7,3});
+       minValue(new int[]{1,2,5,7,3});
+
+    }
+
+
+    public static void maxValue(int[] array) {
+        int max = array[0];
+
+        for (int i = 1; i < array.length; i++) {
+            if (max < array[i]) {
+                max = array[i];
+
+            }
+        }
+        System.out.println("Max value "+max);
+
+    }
+
+    public static void minValue(int[] array) {
+        int min = array[0];
+
+        for (int i = 1; i < array.length; i++) {
+            if (min > array[i]) {
                 min = array[i];
             }
         }
-        System.out.println(max);
-        System.out.println(min);
+
+        System.out.println("Min value:"+min);
     }
 }
+
