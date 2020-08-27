@@ -34,12 +34,16 @@ public class ArrayInput {
     }
 
     public static int findNumber(int[] array, int numberForFind) {
-        array = ArrayInput.arrayMaker();
-        for (int value : array) {
-            if (value == numberForFind) {
-                return 1;
 
+        int i = 0;
+        while (i < array.length) {
+
+            if (array[i] == numberForFind) {
+                return 1;
             }
+
+
+            i++;
         }
         return -1;
     }
