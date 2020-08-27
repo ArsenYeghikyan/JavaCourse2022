@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ArrayInput {
 
     private static int readNumber() {
-        System.out.println("Input number: ");
+
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();
 
@@ -14,12 +14,14 @@ public class ArrayInput {
     }
 
 
-    public static int[] arrayMaker(int countNumberInArray) {
-        int[] array = new int[countNumberInArray];
+    public static int[] arrayMaker() {
+        System.out.println("Input count numbers in an array: ");
+        int countNumbersInArray = readNumber();
+        int[] array = new int[countNumbersInArray];
         int j = 0;
 
         while (j < array.length) {
-
+            System.out.println("Input number: ");
             int inputNumber = readNumber();
             array[j] = inputNumber;
 
@@ -29,6 +31,17 @@ public class ArrayInput {
         return array;
 
 
+    }
+
+    public static int findNumber(int[] array, int numberForFind) {
+        array = ArrayInput.arrayMaker();
+        for (int value : array) {
+            if (value == numberForFind) {
+                return 1;
+
+            }
+        }
+        return -1;
     }
 
 
