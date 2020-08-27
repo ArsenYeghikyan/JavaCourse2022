@@ -1,0 +1,48 @@
+
+            1.   Given two digits (int, double, float, long, short), write a program using ALL(+,-,/,*,%,+=,-=,*=,/=, %=) Arithmetic Operators.
+                 Ex. int a = 4; int b=5; System.out.println("a + b =" + (a + b));
+
+            2.   Given the height and width of rectangle. Write program that prints the area of rectangle.
+
+            3.   Write a program that prints "The number is odd", if the given number is odd, else print "The number is even".
+            4.   Գրել ծրագիր, որը կառաջարկի մուտքագրել բնական թիվ և կտպի էկրանին այդ թվի բազմապատկման աղուսյակը
+                 Օրինակ. 9 - ի դեպքում
+                    1 x 1 = 1
+                    1 x 2 = 2
+                    ...
+                    1 x 9 = 9
+            5.   Write a program to print this figure
+
+                                    *
+                                   ***
+                                  ******
+                                 ********
+            6.   Write a program that checks if given digit divides onto 3 and 7, using if-else-if, if-nested if, if with logical operators(&&)
+            7.   Write a program that checks if given digit divides onto 5 or 6, using if-else-if, if-nested if, if with logical operators(||)
+            8.   Given double n1 = 1.2, n2 = 0.6, n3 = -2.5, n4 = 0. Print the maximum and minimum number
+            9.   Write a Java program to print the result of the following operations.
+                    a. -5 + 8 * 6
+                    b. (55+9) % 9
+                    c. 20 + -3*5 / 8
+                    d. 5 + 15 / 3 * 2 - 8 % 3
+            10.  Write a Java program to print the sum (addition), multiply of 4 numbers(number1, number2, number3, number4). Go to the editor
+            11.  Write a Java program to compute a specified formula
+                    4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11))
+            13.  Write a Java program that checks a floating-point number and prints "zero" if the number is zero. Otherwise, print "positive" or "negative".
+                 Add "small" if the absolute value of the number is less than 1, or "large" if it exceeds 1,000,000.
+            14.  Given symbol. Print synbol with upper case, if it's lowerCase and print symbol with lower case if it's upper case(use code pointer)
+                     ex. 'v' print 'V' or 'V' print 'v'
+            15. Write a program in Java to prints the sum and average of given 5 numbers(number1, number2, number3, number4, number5).
+
+            16. Ծանրության ուժը Լուսնի վրա հավասար է ~17% -ի; Գրել ծրագիր, որ մուտքագրելով քո քաշը կհաշվի քո քաշը Լուսնի վրա;
+
+            17. Գրել հաշվիչ ծրագիր, որը կառաջարկի մուտքագրել 2 թիվ և 1 մաթեմատիկական  գործողություն և կտպի արդյունքը էկրանին․
+                Թվերը կարող են լինել int,double,float
+
+
+
+
+Collapse
+
+
+
