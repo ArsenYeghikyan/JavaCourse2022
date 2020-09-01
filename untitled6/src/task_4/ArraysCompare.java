@@ -19,21 +19,22 @@ public class ArraysCompare {
         }
         return intArray;
     }
-public static int compare(int[] arr1,int[] arr2){
-int x = 0;
-    for (int i = 0; i < arr1.length; i++) {
 
-        for (int j = 0; j < arr2.length; j++) {
-            if (arr1[i]!=arr2[j]){
-              return  arr1[i];
+    public static int compare(int[] arr1, int[] arr2) {
+
+
+        for (int value : arr1) {
+
+            for (int value2 : arr2) {
+                if (value != value2) {
+                    return value;
+                }
+
             }
-
         }
+
+        return -1;
+
     }
-
-
-return -1;
-
-}
 
 }
