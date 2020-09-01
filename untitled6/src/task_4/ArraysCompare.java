@@ -10,7 +10,7 @@ public class ArraysCompare {
         return scanner.nextInt();
     }
 
-    public static int[] IntsArrayMaker(int integerCount) {
+    public static int[] intsArrayMaker(int integerCount) {
         int[] intArray = new int[integerCount];
 
         for (int i = 0; i < intArray.length; i++) {
@@ -19,22 +19,21 @@ public class ArraysCompare {
         }
         return intArray;
     }
+    public static int compare(int[] arr1,int[] arr2){
 
-    public static int compare(int[] arr1, int[] arr2) {
 
+    for (int i = 0; i < arr1.length; i++) {
 
-        for (int value : arr1) {
-
-            for (int value2 : arr2) {
-                if (value != value2) {
-                    return value;
-                }
-
+        for (int value : arr2) {
+            if (arr1[i] != value) {
+                return i;
             }
+
         }
-
-        return -1;
-
     }
+
+    return -1;
+
+}
 
 }

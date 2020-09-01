@@ -14,8 +14,8 @@ public class CountOFChars {
         char[] charArray = new char[characterCount];
 
         for (int i = 0; i < charArray.length; i++) {
-            char inputChar = scannerChars();
-            charArray[i] = inputChar;
+
+            charArray[i] = scannerChars();
         }
 
         return charArray;
