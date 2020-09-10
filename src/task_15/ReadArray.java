@@ -32,7 +32,7 @@ public class ReadArray {
                 System.out.println("isIncreasing ");
                 break;
 
-            } else if (arrayReader()[i] >= arrayReader()[i + 1]) {
+            } else if (arrayReader()[i] >= arrayReader()[i - 1]) {
                 System.out.println("isDecreasing ");
                 break;
 
