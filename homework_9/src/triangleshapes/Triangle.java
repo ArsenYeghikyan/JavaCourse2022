@@ -31,8 +31,8 @@ public  class Triangle implements BaseShape {
         return sideA + sideB + sideC;
     }
 
-   public  double halfPerimeter() {
-        return (sideA+sideB+sideC)/2;
+   private double halfPerimeter() {
+        return (perimeter())/2;
     }
 
 
