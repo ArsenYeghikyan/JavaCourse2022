@@ -3,13 +3,13 @@ package volumetricshapes;
 import circleshapes.Circle;
 
 
-public class Sphere extends VolumetricShape {
+public class Sphere extends Circle implements VolumetricShape {
 
 
     public Sphere(double radius) {
         super(radius);
     }
-    Circle circle = new Circle(getRadius());
+
     @Override
   public   double perimeter() {
         return 0;
@@ -17,7 +17,7 @@ public class Sphere extends VolumetricShape {
 
     @Override
   public   double area() {
-        return 4 * circle.area();
+        return 4 * super.area();
     }
 
     @Override

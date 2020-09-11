@@ -2,7 +2,7 @@ package circleshapes;
 
 import base.BaseShape;
 
-public class Circle extends BaseShape {
+public class Circle implements BaseShape {
 
     private double radius;
 

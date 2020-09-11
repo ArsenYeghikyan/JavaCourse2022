@@ -2,14 +2,14 @@ package volumetricshapes;
 
 import circleshapes.Circle;
 
-public class Cylinder extends VolumetricShape {
+public class Cylinder extends Circle implements VolumetricShape {
 
     private double height;
     public Cylinder(double radius, double height) {
         super(radius);
         this.height = height;
     }
-    Circle circle = new Circle(getRadius());
+
     @Override
     public double volume() {
 
@@ -20,7 +20,7 @@ public class Cylinder extends VolumetricShape {
     @Override
    public double perimeter() {
 
-        return (circle.perimeter() + height) * 2;
+        return (super.perimeter() + height) * 2;
     }
 
     @Override

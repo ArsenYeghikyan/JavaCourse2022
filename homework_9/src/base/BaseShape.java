@@ -1,6 +1,6 @@
 package base;
 
-abstract public class BaseShape {
+ public interface BaseShape {
 
     abstract public double perimeter();
 
