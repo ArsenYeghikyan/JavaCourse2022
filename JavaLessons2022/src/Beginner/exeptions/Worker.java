@@ -1,9 +1,7 @@
 package Beginner.exeptions;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Worker {
 
@@ -12,15 +10,33 @@ public class Worker {
     private String workerPosition = "";
     private Date yearOfEmployment = new Date();
 
-    public Worker(String workerFirstName, String workerLastName, String workerPosition, Date yearOfEmployment) {
-        this.workerFirstName = workerFirstName;
-        this.workerLastName = workerLastName;
-        this.workerPosition = workerPosition;
-        this.yearOfEmployment = yearOfEmployment;
+    public Worker() {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter Name: ");
+        workerFirstName = scanner.nextLine();
+        System.out.println("Enter Last Name: ");
+        workerLastName = scanner.nextLine();
+        System.out.println("Enter position: ");
+        workerPosition = scanner.nextLine();
+        yearOfEmployment = new Date();
+
 
     }
 
 
+    public void setWorkerFirstName(String workerFirstName) {
+        this.workerFirstName = workerFirstName;
+    }
+
+    public void setWorkerLastName(String workerLastName) {
+        this.workerLastName = workerLastName;
+    }
+
+    public void setWorkerPosition(String workerPosition) {
+        this.workerPosition = workerPosition;
+    }
 
     public String getWorkerFirstName() {
         return workerFirstName;
@@ -38,46 +54,12 @@ public class Worker {
         return yearOfEmployment;
     }
 
-    public ArrayList<Worker> getWorkers() {
-        return workers;
-    }
-
-    ArrayList<Worker> workers = new ArrayList<>();
-
-
-    public void addWorkers(Worker worker) {
-
-        workers.add(worker);
-        sort();
-
-    }
-
-    private void sort(){
-
-        workers.sort(new Comparator<Worker>() {
-            @Override
-            public int compare(Worker o1, Worker o2) {
-                return o1.getWorkerFirstName().compareTo(o2.getWorkerFirstName());
-            }
-        });
-
-    }
-
-
-    public void printInfo() {
-        for (Worker x : workers) {
-            System.out.println(
-                    "Name: " + x.getWorkerFirstName() + '\n' +
-                            "Last name: " + x.getWorkerLastName() + '\n' +
-                            "Position: " + x.getWorkerPosition() + '\n' +
-                            "YearOfEmployment: "+ x.getYearOfEmployment());
 
 
 
-        }
 
 
     }
 
 
-}
+

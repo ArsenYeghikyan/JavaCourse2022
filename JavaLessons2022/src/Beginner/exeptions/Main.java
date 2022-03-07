@@ -5,15 +5,18 @@ import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        Worker worker = new Worker("Ars", "Ye","manager", new Date());
-        Worker worker1 = new Worker("Ani", "Ye","manager", new Date());
-        Worker worker2 = new Worker("DAv", "Ye","manager", new Date());
+        Worker worker = new Worker();
+        Worker worker1 = new Worker();
+        Worker worker2 = new Worker();
+        Worker worker3 = new Worker();
+WorkerMethod workerMethod = new WorkerMethod();
 
 
-        worker.addWorkers(worker);
-        worker.addWorkers(worker1);
-        worker.addWorkers(worker2);
-        worker.printInfo();
+        workerMethod.addWorkers(worker);
+        workerMethod.addWorkers(worker1);
+        workerMethod.addWorkers(worker2);
+        workerMethod.addWorkers(worker3);
+        workerMethod.printInfo();
         System.out.println();
     }
 }
