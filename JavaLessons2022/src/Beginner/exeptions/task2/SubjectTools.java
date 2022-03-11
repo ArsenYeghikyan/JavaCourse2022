@@ -2,6 +2,8 @@ package Beginner.exeptions.task2;
 
 import java.util.ArrayList;
 
+import java.util.Comparator;
+
 public class SubjectTools {
 
 
@@ -9,15 +11,36 @@ public class SubjectTools {
 
 
     public void addItems(Subject subject) {
+        if (subject != null) {
 
-        items.add(subject);
+            items.add(subject);
+        } else {
+            System.out.println();
+        }
+        sortItems();
+
 
     }
 
+    private void sortItems() {
+
+        items.sort(Comparator.comparing(Subject::getShopName));
+
+    }
+
+
     public void removeSubject(Subject subject) {
 
-        items.remove(subject);
+        if (items.contains(subject) && subject != null) {
+            items.remove(subject);
 
+        } else {
+            System.out.println("subject not found");
+        }
+
+        if (items.isEmpty()) {
+            System.out.println("list is empty");
+        }
     }
 
 
@@ -49,14 +72,12 @@ public class SubjectTools {
         try {
             for (Subject allItems : items) {
                 if (allItems != null) {
-
                     System.out.println(allItems);
                 } else {
                     throw new NullPointerException("empty value!!");
                 }
             }
         } catch (NullPointerException e) {
-
             System.out.println(e.getMessage());
         }
 

@@ -5,22 +5,24 @@ public class Main {
     public static void main(String[] args) {
 
 
-      SubjectTools items = new SubjectTools();
-//      price.createSubject();
-//      price.createSubject();
-//  price.printItemsInfo();
+        SubjectTools items = new SubjectTools();
 
 
 
-        Subject subject = null;
-//        Subject subject2 = null;
-//        Subject subject3 = new Subject();
+    Subject subject = new Subject();
+        Subject subject2 = new Subject();
+
         items.addItems(subject);
-        items.addItems(subject);
+
+        items.addItems(subject2);
 
 
         items.printItemsInfo();
-items.findSubject(subject);
+//        items.findSubject(subject);
+//        items.removeSubject(subject2);
+//        items.removeSubject(subject);
+//        items.printItemsInfo();
+
 
     }
 
