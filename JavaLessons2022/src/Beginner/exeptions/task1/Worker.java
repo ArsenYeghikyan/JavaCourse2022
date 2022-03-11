@@ -1,4 +1,4 @@
-package Beginner.exeptions;
+package Beginner.exeptions.task1;
 
 import java.util.Date;
 import java.util.Scanner;

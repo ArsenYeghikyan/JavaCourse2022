@@ -1,7 +1,4 @@
-package Beginner.exeptions;
-
-import java.util.Calendar;
-import java.util.Date;
+package Beginner.exeptions.task1;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,12 +8,12 @@ public class Main {
         Worker worker3 = new Worker();
 WorkerMethod workerMethod = new WorkerMethod();
 
-
-        workerMethod.addWorkers(worker);
-        workerMethod.addWorkers(worker1);
-        workerMethod.addWorkers(worker2);
-        workerMethod.addWorkers(worker3);
-        workerMethod.printInfo();
+//
+//        workerMethod.addWorkers(worker);
+//        workerMethod.addWorkers(worker1);
+//        workerMethod.addWorkers(worker2);
+//        workerMethod.addWorkers(worker3);
+//        workerMethod.printInfo();
         System.out.println();
     }
 }
