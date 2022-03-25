@@ -9,12 +9,13 @@ public class Main {
 
 
 
-    Subject subject = new Subject();
+        Subject subject = new Subject();
         Subject subject2 = new Subject();
+    //   Subject subject3 = new Subject();
 
         items.addItems(subject);
-
         items.addItems(subject2);
+//        items.addItems(subject3);
 
 
         items.printItemsInfo();

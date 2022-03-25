@@ -1,7 +1,6 @@
 package Beginner.exeptions.task2;
 
 import java.util.ArrayList;
-
 import java.util.Comparator;
 
 public class SubjectTools {
@@ -11,12 +10,14 @@ public class SubjectTools {
 
 
     public void addItems(Subject subject) {
-        if (subject != null) {
 
+        if (!(subject == null || subject.getSubjectPrice() < 0)) {
             items.add(subject);
         } else {
-            System.out.println();
+            removeSubject(subject);
+//            System.out.println("empty value!!");
         }
+
         sortItems();
 
 
