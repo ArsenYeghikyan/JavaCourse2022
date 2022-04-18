@@ -9,7 +9,12 @@ public class ArrayListMethods {
     public static void main(String[] args) {
 
 
-        strings.add("Arsen");
+        strings.add("""
+                jhjgh
+                ghjghj
+                ghjghj
+                hjghj
+                """);
         strings.add("Alex");
         strings.add("Lilit");
 
